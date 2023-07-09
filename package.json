@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "test:open": "npx cypress open",
+    "testChrome": "npx cypress run --browser chrome",
+    "testEdge": "npx cypress run --browser edge",
+    "test:qa": "npx cypress run --config baseUrl=https://qa.saucedemo.com"
+  },
+  "devDependencies": {
+    "@cypress/grep": "^3.1.5",
+    "cypress": "^12.17.0",
+    "typescript": "^5.1.6"
+  }
+}
